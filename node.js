@@ -7,5 +7,7 @@ const pessoas = [
 ]
 
 for (p of pessoas){
-    console.log(p)
+    if(p.idade >= 18){
+     console.log(p)
+    }
 }
